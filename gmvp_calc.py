@@ -50,7 +50,7 @@ def get_data(start, end):
                  'KODEX다우존스미국리츠H', 'TIGER라틴35', 'TIGER미국채10년선물', 'TIGER미국나스닥100', 'TIGER일본니케이225', 'TIGER미국다우존스30', 'TIGER유로스탁스배당30']
 
     df1 = df1.dropna()
-    df1.to_csv("gvmp_prices.csv")
+    # df1.to_csv("gvmp_prices.csv")
     return df1
 
 class WeighDaysAverageMomentumScoreSelectN(bt.Algo):
